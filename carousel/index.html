@@ -1,24 +1,25 @@
-<!doctype html>
-<html lang="en" data-bs-theme="auto">
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
   <script src="../bootstrap-5.3.3/site/static/docs/5.3/assets/js/color-modes.js"></script>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Bem-vindo à página oficial da banda Charlie Brown Jr.! Aqui você encontrará informações sobre a história da banda, discografia, datas de turnê, vídeos e muito mais.">
+  <meta name="keywords" content="cbjr, Musical, rock, Chorão, charliebrownjr">
+  <meta name="robots" content="all">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.122.0">
-  <title>Carousel Template · Bootstrap v5.3</title>
-
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
-
-
-
+  <link rel="shortcut icon" href="icons/logosite-transformed.ico" type="image/x-icon">
+  <title>Banda Charlie Brown Jr</title>
+  <link rel="stylesheet" href="./carousel.css">
+  <link rel="stylesheet" href="./color-modes.js">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carouselall/">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-
   <link href="../bootstrap-5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="../fontawesome-free-6.5.1-web/css/all.css">
+  <script src="../bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <style>
     .bd-placeholder-img {
       font-size: 1.125rem;
@@ -104,26 +105,6 @@
 </head>
 
 <body>
-  <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-    <symbol id="check2" viewBox="0 0 16 16">
-      <path
-        d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
-    </symbol>
-    <symbol id="circle-half" viewBox="0 0 16 16">
-      <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
-    </symbol>
-    <symbol id="moon-stars-fill" viewBox="0 0 16 16">
-      <path
-        d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
-      <path
-        d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
-    </symbol>
-    <symbol id="sun-fill" viewBox="0 0 16 16">
-      <path
-        d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
-    </symbol>
-  </svg>
-
   <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
     <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
       aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
@@ -173,10 +154,11 @@
   </div>
 
 
+
   <header data-bs-theme="dark">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Carousel</a>
+        <a class="navbar-brand fa-sharp fa-solid" href="#">Charlie Brown Jr</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
           aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -184,13 +166,26 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#top">Home</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link" href="#section-agenda">Agenda de Shows</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#section-biografia">Biografia</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#section-galeria">Galeria</a>
+            </li>
+            <li class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Outros </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#section-discografia">Discografia</a></li>
+                <li><a class="dropdown-item" href="#section-contact">Contacto</a></li>
+              </ul>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -201,6 +196,7 @@
       </div>
     </nav>
   </header>
+
 
   <main>
 
@@ -219,9 +215,12 @@
           </svg>
           <div class="container">
             <div class="carousel-caption text-start">
-              <h1>Example headline.</h1>
-              <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              <h1>Chorão e Champignon em entrevista no Domingo Espetacular.</h1>
+              <p class="opacity-75">A reportagem do Domingo Espetacular da TV Record acompanhou a banda durante um show
+                no último final de semana e os entrevistou.</p>
+              <p><a class="btn btn-lg btn-primary"
+                  href="https://record.r7.com/domingo-espetacular/videos/cantor-chorao-volta-a-discutir-com-colegas-da-banda-charlie-brown-jr-29062022/">Saiba
+                  mais</a></p>
             </div>
           </div>
         </div>
@@ -232,9 +231,10 @@
           </svg>
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Some representative placeholder content for the second slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              <h1>Entrevista Especial Chorão – UOL 89 A Rádio Rock</h1>
+              <p>“Porque a parede da casa de Deus é azul, CHORÃO VIVE!</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.youtube.com/watch?v=oBmUQBf0SwU">Assista agora</a>
+              </p>
             </div>
           </div>
         </div>
@@ -245,9 +245,10 @@
           </svg>
           <div class="container">
             <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
-              <p>Some representative placeholder content for the third slide of this carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+              <h1>Veja como foi o especial de Verão do Charlie Brown Jr.</h1>
+              <p>Se você perdeu, sem problemas! Veja abaixo, na íntegra, este especial imperdível.</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.youtube.com/watch?v=JlKtSm3riEE">Assista agora</a>
+              </p>
             </div>
           </div>
         </div>
@@ -262,128 +263,428 @@
       </button>
     </div>
 
-
-    <!-- Marketing messaging and featurettes
-  ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
     <div class="container marketing">
 
-      <!-- Three columns of text below the carousel -->
+      <div class="row .col-lg-4" id="section-agenda">
+        <h2>Agenda de Shows Tributo 2024</h2>
+        <h3>No Dia Mundial do Rock, o “Repertório Cultural” fará uma homenagem a uma das maiores bandas brasileiras que
+          mudou a cena nacional e transitou por outros gêneros sem perder sua essência.</h3>
+        <div class="col-lg-4">
+          <img src="../images/show1.jpg" class="rounded-circle" width="200" height="200" alt="show1">
+          <h2 class="fw-normal">Reservar ingresso</h2>
+          <p>26 de janeiro de 2024 São Paulo/SP.</p>
+          <p><a class="btn btn-secondary" href="https://bileto.sympla.com.br/event/84248">Comprar &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="../images/show2.jpeg" class="rounded-circle" width="200" height="200" alt="show2">
+          <h2 class="fw-normal">Reservar ingresso</h2>
+          <p>16 de Março de 2024 Blumenau/SC.</p>
+          <p><a class="btn btn-secondary" href="https://bileto.sympla.com.br/event/84248">Comprar &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="../images/show3.jpg" class="rounded-circle" width="200" height="200" alt="show3">
+          <h2 class="fw-normal">Reservar ingresso</h2>
+          <p>23 de Março de 2024 Santos/SP</p>
+          <p><a class="btn btn-secondary" href="https://bileto.sympla.com.br/event/84248">Comprar &raquo;</a></p>
+        </div>
+      </div>
+    </div>
+
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="section-biografia">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Banda <span class="text-body-secondary">'Informação
+            geral'</span></h2>
+        <p class="lead">Origem: Santos, São Paulo- Brasil o Período em atividade: 1992-2013
+        </p>
+        <hr>
+        <p class="lead"> Gravadoras: EMI, Virgin Records, Sony Music, Radar Records, Som Livre.
+        </p>
+        <hr>
+        <p class="lead"> Gêneros: Skate punk,rap rock,hardcore melódico,rap metal,rock alternativo,reggae e rock.
+        </p>
+        <hr>
+        <p class="lead"> Integrantes: Chorão✝, Champignon✝, Thiago Castanho, Marcão e Bruno Graveto.
+        </p>
+        <hr>
+        <p class="lead"> Exs integrantes: Heitor Gomes(2005-2011)-
+          Renato Pelado (1992-2005)-
+          André Ruas "Pinguim" (2005-2008)</p>
+      </div>
+      <div class="col-md-5">
+        <img src="../images/pt3.jpg" class="img-fluid mx-auto" width="500" height="500" alt="historia pt1">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">A história<span class="text-body-secondary"> 'Meninos do Rock'
+          </span></h2>
+        <p class="lead">começou quando Chorão, começa a cantar em uma mesa de bar, em
+          Santos. Em uma grande coincidência, um cara que se encontrava no bar, estava à procura de alguém para ser
+          vocalista da sua banda, 'What´s Up', e se encantou com a voz de Chorão, assim o convidou para fazer um teste
+          no dia seguinte.
+          <br>
+          'Comecei a cantar, e o cara me disse que tava bom porque melhor ele não ia encontrar' conta
+          Chorão. Depois de gravar uma fita demo, em 1992, Chorão cansou de receber ordens e resolve montar a sua
+          própria banda.
+          <br>
+          Foi aí que ele se juntou a Marcão (guitarra) e Champignon (baixo e beat-box) e formaram o Charlie Brown Jr.
+          Não muito tempo depois, dois integrantes abandonam a banda e Thiago (guitarra) e Pelado (bateria) tomam posse
+          dos lugares. <br>Resolveram dar o nome de 'Charlie Brown Jr', 'Charlie Brown' era o nome de um quiosque de
+          praia, cujo dono
+          Chorão atropelou com um carro. 'Jr' é porque eles se consideram 'frutos' de uma nova geração da música.
+        </p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="../images/pt2.jpg" class="img-fluid mx-auto" width="500" height="500" alt="historia pt2">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Sucesso- <span class="text-body-secondary">Premios.</span></h2>
+        <p class="lead">Gravaram duas fitas demo, mas somente a terceira
+          chegou até o produtor musical Rick Bonadio, que gostou
+          do trabalho do grupo e resolveu investir. A banda foi crescendo até ser contratada pela gravadora Virgin. <br>
+          O primeiro álbum, 'Transpiração Contínua e Prolongada', foi lançado em Junho de 1997, e estorou nas rádios com
+          a música 'O Coro vai Comê!'. Com o sucesso cada vez mais numeroso, 'Charlie Brown' recebeu o prêmio de 'Banda
+          Revelação' no VMB (Video Music Awards). Lançaram o
+          segundo CD 'Preço Curto. Prazo Longo', o que rendeu uma turnê para lugares jamais visitados. Nesta mesma
+          época, Thiago abandona o grupo para casar, tornando os 'Charlie Brown Jr' em um quarteto. <br>
+
+          Em menos de um ano, lançaram o terceiro disco, 'Nadando com os Tubarões' e já pensavam na criação e produção
+          do próximo. Ganharam muitos prêmios entre eles,'A Escolha da Audiência', no VMB (Video
+          Music Brasil), da MTV, em 1998.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="../images/pt1.jpg" class="img-fluid mx-auto " width="500" height="500" alt="historia pt3">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row "  id="section-discografia">
+      <h2>Discografia</h2>
+      <div class="col-md-4 ">
+        <div class="card mb-4 shadow-sm">
+          <img src="../images/disco1.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
+            alt="disco1">
+          <div class="card-body">
+            <p class="card-text">Transpiração Contínua Prolongada <br> Released June 16, 1997.</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group nav-li">
+                <a class="btn btn-sm btn-outline-secondary" href="https://open.spotify.com/album/09Nao8wNpzTz60nY8G2n7A"
+                  target="_blank">Ouça agora </a>
+              </div>
+              <small class="text-muted"></small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="../images/disco2.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
+            alt="disco2">
+          <div class="card-body">
+            <p class="card-text"> Preço Curto, Prazo Longo <br>Released March 6, 1999</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a class="btn btn-sm btn-outline-secondary" href="https://open.spotify.com/album/2hLNxoJZ5kZoBEX0XGBRNu"
+                  target="_blank">Ouça agora </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 shadow-sm">
+          <img src="../images/disco3.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
+            alt="disco3">
+          <div class="card-body">
+            <p class="card-text"> 100% Charlie Brown Jr: Abalando a sua fábrica <br> Released November 2001</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <a class="btn btn-sm btn-outline-secondary" href="https://open.spotify.com/album/0Dcy3ThOh8LS1qhXUbZWH7"
+                  target="_blank">Ouça agora </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <h2 class="fw-normal">Heading</h2>
-          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
-            column.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <h2 class="fw-normal">Heading</h2>
-          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
-          </p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-          </svg>
-          <h2 class="fw-normal">Heading</h2>
-          <p>And lastly this, the third column of representative placeholder content.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
-              class="text-body-secondary">It’ll blow your mind.</span></h2>
-          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
-            here.</p>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="../images/disco4.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
+              alt="disco4">
+            <div class="card-body">
+              <p class="card-text">Bocas Ordinárias
+                <br> Released May 12, 2002.
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Ouça agora</button>
+                </div>
+                <small class="text-muted"></small>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-              fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-          </svg>
-        </div>
-      </div>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="../images/disco5.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
+              alt="disco5">
+            <div class="card-body">
+              <p class="card-text"> Tamo aí na Atividade<br>Released June 16, 2004.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-sm btn-outline-secondary"
+                    href="https://open.spotify.com/album/6PsijYuoyIB4vgV5brmbhq" target="_blank">Ouça agora </a>
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span class="text-body-secondary">See
-              for yourself.</span></h2>
-          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this
-            layout would work with some actual real-world content in place.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-              fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-          </svg>
+        <div class="col-md-4">
+          <div class="card mb-4 shadow-sm">
+            <img src="../images/disco6.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
+              alt="disco6">
+            <div class="card-body">
+              <p class="card-text"> Camisa 10 Joga Bola Até na Chuva <br> Released September 25, 2009.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="btn btn-sm btn-outline-secondary"
+                    href="https://open.spotify.com/album/0tbiBipiOorOAnL7XWFbgt" target="_blank">Ouça agora </a>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="featurette-divider">
+<div class="row" id="section-galeria">
+  <h2>Galeria - Frases</h2>
+  <div class="col-md-3 ">
+    <div class="card mb-4 shadow-sm">
+      <img src="../images/galeria1.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo1">
+      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group nav-li">
+          </div>
+          <small class="text-muted"></small>
         </div>
       </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
-              class="text-body-secondary">Checkmate.</span></h2>
-          <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
-            intended to be actually read, simply here to give you a better view of what this would look like with some
-            actual content. Your content.</p>
-        </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="var(--bs-secondary-bg)" /><text x="50%" y="50%"
-              fill="var(--bs-secondary-color)" dy=".3em">500x500</text>
-          </svg>
+    </div>
+  </div>
+  
+  <div class="col-md-3">
+    <div class="card mb-4 shadow-sm">
+      <img src="../images/galeria2.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo2">
+      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group nav-li">
+          </div>
+          <small class="text-muted"></small>
         </div>
       </div>
+    </div>
+  </div>
 
-      <hr class="featurette-divider">
+  <div class="col-md-3">
+    <div class="card mb-4 shadow-sm">
+      <img src="../images/galeria3.png" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo3">
+      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group nav-li">
+          </div>
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+  </div>
 
-      <!-- /END THE FEATURETTES -->
+  <div class="col-md-3">
+    <div class="card mb-4 shadow-sm">
+      <img src="../images/galeria4.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo4">
+      <div class=" d-flex justify-content-between align-items-center btn-group nav-li">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group nav-li">
+          </div>
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-    </div><!-- /.container -->
+<div class="row" id="section-galeria">
+ 
+  <div class="col-md-3">
+    <div class="card mb-4 shadow-sm">
+      <img src="../images/galeria5.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo5">
+      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group nav-li">
+          </div>
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-3">
+    <div class="card mb-4 shadow-sm">
+      <img src="../images/galeria6.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo6">
+      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group nav-li">
+          </div>
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="card mb-4 shadow-sm">
+      <img src="../images/galeria7.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo7">
+      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group nav-li">
+          </div>
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="card mb-4 shadow-sm">
+      <img src="../images/galeria8.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo8">
+      <div class=" d-flex justify-content-between align-items-center btn-group nav-li">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group nav-li">
+          </div>
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-    <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>&copy; 2017–2024 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
-  </main>
-  <script src="../bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<div class="row" id="section-galeria">
+
+  <div class="col-md-3">
+    <div class="card mb-4 shadow-sm">
+      <img src="../images/galeria9.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo9">
+      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group nav-li">
+          </div>
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-md-3">
+    <div class="card mb-4 shadow-sm">
+      <img src="../images/galeria10.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo10">
+      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group nav-li">
+          </div>
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="card mb-4 shadow-sm">
+      <img src="../images/galeria11.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo11">
+      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group nav-li">
+          </div>
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3">
+    <div class="card mb-4 shadow-sm">
+      <img src="../images/galeria12.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo12">
+      <div class=" d-flex justify-content-between align-items-center btn-group nav-li">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group nav-li">
+          </div>
+          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        <section id="section-contact" class="contact">
+          <div class="container">
+            <h2 class="text-center">Contato</h2>
+            <p class="text-center">Entre em contato conosco.</p>
+            <form id="contact-form">
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Seu e-mail" required>
+              </div><br>
+              <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Sua mensagem" required></textarea>
+              </div><br>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </section>
+        <!-- FOOTER -->
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top socials">
+          <p>&copy; 2024 Magda Figueiredo. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-body-emphasis"
+                href="https://www.facebook.com/cbjroficial/?locale=pt_PT"><img src="../icons/socialfacebook.svg"
+                  alt="facebook"></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/charliebrownjr/"><img
+                  src="../icons/socialinstagram.svg" alt="instagram"></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://twitter.com/cbjroficial?lang=pt"><img
+                  src="../icons/socialtwitter.svg" alt="twitter"></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.youtube.com/@cbjr./featured"><img
+                  src="../icons/socialyoutube.svg" alt="youtube"></a></li>
+            <li class="ms-3"><a class="link-body-emphasis"
+                href="https://open.spotify.com/artist/1on7ZQ2pvgeQF4vmIA09x5"><img src="../icons/socialspotify.svg"
+                  alt="spotify"></a></li>
+            <li class="ms-3"><a class="link-body-emphasis" href="https://www.tiktok.com/@charliebrownjr"><img
+                  src="../icons/tiktok.svg" alt="tiktok"></a></li>
+          </ul>
+        </div>
+        <footer class="container">
+          <p class="float-end"><a href="#top">Back to top</a></p>
+        </footer>
 
 </body>
 
 </html>
+
+
+
+
+
+
+
+
