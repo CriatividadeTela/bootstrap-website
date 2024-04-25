@@ -98,9 +98,6 @@
       display: block !important;
     }
   </style>
-
-
-  <!-- Custom styles for this template -->
   <link href="carousel.css" rel="stylesheet">
 </head>
 
@@ -152,9 +149,6 @@
       </li>
     </ul>
   </div>
-
-
-
   <header data-bs-theme="dark">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div class="container-fluid">
@@ -168,16 +162,13 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#top">Home</a>
             </li>
-
-
             <li class="nav-item">
               <a class="nav-link" href="#section-agenda">Agenda de Shows</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#section-biografia">Biografia</a>
             </li>
-            <a class="nav-link" href="#section-galeria">Galeria</a>
-            </li>
+            <li a class="nav-link" href="#section-galeria">Galeria</li>
             <li class="dropdown">
               <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -187,17 +178,17 @@
                 <li><a class="dropdown-item" href="#section-contact">Contacto</a></li>
               </ul>
             </li>
+            <li>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
+      </div>
       </div>
     </nav>
   </header>
-
-
   <main>
 
     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
@@ -262,126 +253,177 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+  </main>
+  <div class="container marketing">
 
-    <div class="container marketing">
+    <div class="row .col-lg-4" id="section-agenda">
+      <h2>Agenda de Shows Tributo 2024</h2>
+      <h3>No Dia Mundial do Rock, o “Repertório Cultural” fará uma homenagem a uma das maiores bandas brasileiras que
+        mudou a cena nacional e transitou por outros gêneros sem perder sua essência.</h3>
+      <div class="col-lg-4">
+        <img src="../images/show1.jpg" class="rounded-circle" width="200" height="200" alt="show1">
+        <h2 class="fw-normal">Reservar ingresso</h2>
+        <p>26 de janeiro de 2024 São Paulo/SP.</p>
+        <p><a class="btn btn-secondary" href="https://bileto.sympla.com.br/event/84248">Comprar &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img src="../images/show2.jpeg" class="rounded-circle" width="200" height="200" alt="show2">
+        <h2 class="fw-normal">Reservar ingresso</h2>
+        <p>16 de Março de 2024 Blumenau/SC.</p>
+        <p><a class="btn btn-secondary" href="https://bileto.sympla.com.br/event/84248">Comprar &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img src="../images/show3.jpg" class="rounded-circle" width="200" height="200" alt="show3">
+        <h2 class="fw-normal">Reservar ingresso</h2>
+        <p>23 de Março de 2024 Santos/SP</p>
+        <p><a class="btn btn-secondary" href="https://bileto.sympla.com.br/event/84248">Comprar &raquo;</a></p>
+      </div>
+    </div>
+  </div>
 
-      <div class="row .col-lg-4" id="section-agenda">
-        <h2>Agenda de Shows Tributo 2024</h2>
-        <h3>No Dia Mundial do Rock, o “Repertório Cultural” fará uma homenagem a uma das maiores bandas brasileiras que
-          mudou a cena nacional e transitou por outros gêneros sem perder sua essência.</h3>
-        <div class="col-lg-4">
-          <img src="../images/show1.jpg" class="rounded-circle" width="200" height="200" alt="show1">
-          <h2 class="fw-normal">Reservar ingresso</h2>
-          <p>26 de janeiro de 2024 São Paulo/SP.</p>
-          <p><a class="btn btn-secondary" href="https://bileto.sympla.com.br/event/84248">Comprar &raquo;</a></p>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette" id="section-biografia">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">Banda <span class="text-body-secondary">'Informação
+          geral'</span></h2>
+      <p class="lead">Origem: Santos, São Paulo- Brasil o Período em atividade: 1992-2013
+      </p>
+      <hr>
+      <p class="lead"> Gravadoras: EMI, Virgin Records, Sony Music, Radar Records, Som Livre.
+      </p>
+      <hr>
+      <p class="lead"> Gêneros: Skate punk,rap rock,hardcore melódico,rap metal,rock alternativo,reggae e rock.
+      </p>
+      <hr>
+      <p class="lead"> Integrantes: Chorão✝, Champignon✝, Thiago Castanho, Marcão e Bruno Graveto.
+      </p>
+      <hr>
+      <p class="lead"> Exs integrantes: Heitor Gomes(2005-2011)-
+        Renato Pelado (1992-2005)-
+        André Ruas "Pinguim" (2005-2008)</p>
+    </div>
+    <div class="col-md-5">
+      <img src="../images/pt3.jpg" class="img-fluid mx-auto" width="500" height="500" alt="historia pt1">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7 order-md-2">
+      <h2 class="featurette-heading fw-normal lh-1">A história<span class="text-body-secondary"> 'Meninos do Rock'
+        </span></h2>
+      <p class="lead">começou quando Chorão, começa a cantar em uma mesa de bar, em
+        Santos. Em uma grande coincidência, um cara que se encontrava no bar, estava à procura de alguém para ser
+        vocalista da sua banda, 'What´s Up', e se encantou com a voz de Chorão, assim o convidou para fazer um teste
+        no dia seguinte.
+        <br>
+        'Comecei a cantar, e o cara me disse que tava bom porque melhor ele não ia encontrar' conta
+        Chorão. Depois de gravar uma fita demo, em 1992, Chorão cansou de receber ordens e resolve montar a sua
+        própria banda.
+        <br>
+        Foi aí que ele se juntou a Marcão (guitarra) e Champignon (baixo e beat-box) e formaram o Charlie Brown Jr.
+        Não muito tempo depois, dois integrantes abandonam a banda e Thiago (guitarra) e Pelado (bateria) tomam posse
+        dos lugares. <br>Resolveram dar o nome de 'Charlie Brown Jr', 'Charlie Brown' era o nome de um quiosque de
+        praia, cujo dono
+        Chorão atropelou com um carro. 'Jr' é porque eles se consideram 'frutos' de uma nova geração da música.
+      </p>
+    </div>
+    <div class="col-md-5 order-md-1">
+      <img src="../images/pt2.jpg" class="img-fluid mx-auto" width="500" height="500" alt="historia pt2">
+
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+      <h2 class="featurette-heading fw-normal lh-1">Sucesso- <span class="text-body-secondary">Premios.</span></h2>
+      <p class="lead">Gravaram duas fitas demo, mas somente a terceira
+        chegou até o produtor musical Rick Bonadio, que gostou
+        do trabalho do grupo e resolveu investir. A banda foi crescendo até ser contratada pela gravadora Virgin. <br>
+        O primeiro álbum, 'Transpiração Contínua e Prolongada', foi lançado em Junho de 1997, e estorou nas rádios com
+        a música 'O Coro vai Comê!'. Com o sucesso cada vez mais numeroso, 'Charlie Brown' recebeu o prêmio de 'Banda
+        Revelação' no VMB (Video Music Awards). Lançaram o
+        segundo CD 'Preço Curto. Prazo Longo', o que rendeu uma turnê para lugares jamais visitados. Nesta mesma
+        época, Thiago abandona o grupo para casar, tornando os 'Charlie Brown Jr' em um quarteto. <br>
+
+        Em menos de um ano, lançaram o terceiro disco, 'Nadando com os Tubarões' e já pensavam na criação e produção
+        do próximo. Ganharam muitos prêmios entre eles,'A Escolha da Audiência', no VMB (Video
+        Music Brasil), da MTV, em 1998.</p>
+    </div>
+    <div class="col-md-5">
+      <img src="../images/pt1.jpg" class="img-fluid mx-auto " width="500" height="500" alt="historia pt3">
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+  <div class="row " id="section-discografia">
+    <h2>Discografia</h2>
+    <div class="col-md-4 ">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/disco1.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
+          alt="disco1">
+        <div class="card-body">
+          <p class="card-text">Transpiração Contínua Prolongada <br> Released June 16, 1997.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
+              <a class="btn btn-sm btn-outline-secondary" href="https://open.spotify.com/album/09Nao8wNpzTz60nY8G2n7A"
+                target="_blank">Ouça agora </a>
+            </div>
+            <small class="text-muted"></small>
+          </div>
         </div>
-        <div class="col-lg-4">
-          <img src="../images/show2.jpeg" class="rounded-circle" width="200" height="200" alt="show2">
-          <h2 class="fw-normal">Reservar ingresso</h2>
-          <p>16 de Março de 2024 Blumenau/SC.</p>
-          <p><a class="btn btn-secondary" href="https://bileto.sympla.com.br/event/84248">Comprar &raquo;</a></p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/disco2.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
+          alt="disco2">
+        <div class="card-body">
+          <p class="card-text"> Preço Curto, Prazo Longo <br>Released March 6, 1999</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a class="btn btn-sm btn-outline-secondary" href="https://open.spotify.com/album/2hLNxoJZ5kZoBEX0XGBRNu"
+                target="_blank">Ouça agora </a>
+
+            </div>
+          </div>
         </div>
-        <div class="col-lg-4">
-          <img src="../images/show3.jpg" class="rounded-circle" width="200" height="200" alt="show3">
-          <h2 class="fw-normal">Reservar ingresso</h2>
-          <p>23 de Março de 2024 Santos/SP</p>
-          <p><a class="btn btn-secondary" href="https://bileto.sympla.com.br/event/84248">Comprar &raquo;</a></p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/disco3.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
+          alt="disco3">
+        <div class="card-body">
+          <p class="card-text"> 100% Charlie Brown Jr: Abalando a sua fábrica <br> Released November 2001</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a class="btn btn-sm btn-outline-secondary" href="https://open.spotify.com/album/0Dcy3ThOh8LS1qhXUbZWH7"
+                target="_blank">Ouça agora </a>
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette" id="section-biografia">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">Banda <span class="text-body-secondary">'Informação
-            geral'</span></h2>
-        <p class="lead">Origem: Santos, São Paulo- Brasil o Período em atividade: 1992-2013
-        </p>
-        <hr>
-        <p class="lead"> Gravadoras: EMI, Virgin Records, Sony Music, Radar Records, Som Livre.
-        </p>
-        <hr>
-        <p class="lead"> Gêneros: Skate punk,rap rock,hardcore melódico,rap metal,rock alternativo,reggae e rock.
-        </p>
-        <hr>
-        <p class="lead"> Integrantes: Chorão✝, Champignon✝, Thiago Castanho, Marcão e Bruno Graveto.
-        </p>
-        <hr>
-        <p class="lead"> Exs integrantes: Heitor Gomes(2005-2011)-
-          Renato Pelado (1992-2005)-
-          André Ruas "Pinguim" (2005-2008)</p>
-      </div>
-      <div class="col-md-5">
-        <img src="../images/pt3.jpg" class="img-fluid mx-auto" width="500" height="500" alt="historia pt1">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading fw-normal lh-1">A história<span class="text-body-secondary"> 'Meninos do Rock'
-          </span></h2>
-        <p class="lead">começou quando Chorão, começa a cantar em uma mesa de bar, em
-          Santos. Em uma grande coincidência, um cara que se encontrava no bar, estava à procura de alguém para ser
-          vocalista da sua banda, 'What´s Up', e se encantou com a voz de Chorão, assim o convidou para fazer um teste
-          no dia seguinte.
-          <br>
-          'Comecei a cantar, e o cara me disse que tava bom porque melhor ele não ia encontrar' conta
-          Chorão. Depois de gravar uma fita demo, em 1992, Chorão cansou de receber ordens e resolve montar a sua
-          própria banda.
-          <br>
-          Foi aí que ele se juntou a Marcão (guitarra) e Champignon (baixo e beat-box) e formaram o Charlie Brown Jr.
-          Não muito tempo depois, dois integrantes abandonam a banda e Thiago (guitarra) e Pelado (bateria) tomam posse
-          dos lugares. <br>Resolveram dar o nome de 'Charlie Brown Jr', 'Charlie Brown' era o nome de um quiosque de
-          praia, cujo dono
-          Chorão atropelou com um carro. 'Jr' é porque eles se consideram 'frutos' de uma nova geração da música.
-        </p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <img src="../images/pt2.jpg" class="img-fluid mx-auto" width="500" height="500" alt="historia pt2">
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">Sucesso- <span class="text-body-secondary">Premios.</span></h2>
-        <p class="lead">Gravaram duas fitas demo, mas somente a terceira
-          chegou até o produtor musical Rick Bonadio, que gostou
-          do trabalho do grupo e resolveu investir. A banda foi crescendo até ser contratada pela gravadora Virgin. <br>
-          O primeiro álbum, 'Transpiração Contínua e Prolongada', foi lançado em Junho de 1997, e estorou nas rádios com
-          a música 'O Coro vai Comê!'. Com o sucesso cada vez mais numeroso, 'Charlie Brown' recebeu o prêmio de 'Banda
-          Revelação' no VMB (Video Music Awards). Lançaram o
-          segundo CD 'Preço Curto. Prazo Longo', o que rendeu uma turnê para lugares jamais visitados. Nesta mesma
-          época, Thiago abandona o grupo para casar, tornando os 'Charlie Brown Jr' em um quarteto. <br>
-
-          Em menos de um ano, lançaram o terceiro disco, 'Nadando com os Tubarões' e já pensavam na criação e produção
-          do próximo. Ganharam muitos prêmios entre eles,'A Escolha da Audiência', no VMB (Video
-          Music Brasil), da MTV, em 1998.</p>
-      </div>
-      <div class="col-md-5">
-        <img src="../images/pt1.jpg" class="img-fluid mx-auto " width="500" height="500" alt="historia pt3">
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-    <div class="row "  id="section-discografia">
-      <h2>Discografia</h2>
-      <div class="col-md-4 ">
+    <div class="row">
+      <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <img src="../images/disco1.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
-            alt="disco1">
+          <img src="../images/disco4.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
+            alt="disco4">
           <div class="card-body">
-            <p class="card-text">Transpiração Contínua Prolongada <br> Released June 16, 1997.</p>
+            <p class="card-text">Bocas Ordinárias
+              <br> Released May 12, 2002.
+            </p>
             <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group nav-li">
-                <a class="btn btn-sm btn-outline-secondary" href="https://open.spotify.com/album/09Nao8wNpzTz60nY8G2n7A"
-                  target="_blank">Ouça agora </a>
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary">Ouça agora</button>
               </div>
               <small class="text-muted"></small>
             </div>
@@ -390,13 +432,13 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <img src="../images/disco2.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
-            alt="disco2">
+          <img src="../images/disco5.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
+            alt="disco5">
           <div class="card-body">
-            <p class="card-text"> Preço Curto, Prazo Longo <br>Released March 6, 1999</p>
+            <p class="card-text"> Tamo aí na Atividade<br>Released June 16, 2004.</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <a class="btn btn-sm btn-outline-secondary" href="https://open.spotify.com/album/2hLNxoJZ5kZoBEX0XGBRNu"
+                <a class="btn btn-sm btn-outline-secondary" href="https://open.spotify.com/album/6PsijYuoyIB4vgV5brmbhq"
                   target="_blank">Ouça agora </a>
 
               </div>
@@ -406,285 +448,229 @@
       </div>
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
-          <img src="../images/disco3.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
-            alt="disco3">
+          <img src="../images/disco6.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
+            alt="disco6">
           <div class="card-body">
-            <p class="card-text"> 100% Charlie Brown Jr: Abalando a sua fábrica <br> Released November 2001</p>
+            <p class="card-text"> Camisa 10 Joga Bola Até na Chuva <br> Released September 25, 2009.</p>
             <div class="d-flex justify-content-between align-items-center">
               <div class="btn-group">
-                <a class="btn btn-sm btn-outline-secondary" href="https://open.spotify.com/album/0Dcy3ThOh8LS1qhXUbZWH7"
+                <a class="btn btn-sm btn-outline-secondary" href="https://open.spotify.com/album/0tbiBipiOorOAnL7XWFbgt"
                   target="_blank">Ouça agora </a>
-
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="../images/disco4.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
-              alt="disco4">
-            <div class="card-body">
-              <p class="card-text">Bocas Ordinárias
-                <br> Released May 12, 2002.
-              </p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Ouça agora</button>
-                </div>
-                <small class="text-muted"></small>
-              </div>
+    </div>
+  </div>
+  <hr class="featurette-divider">
+  <div class="row" id="section-galeria">
+    <h2>Galeria - Frases</h2>
+    <div class="col-md-3 ">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/galeria1.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250"
+          alt="photo1">
+        <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
             </div>
+            <small class="text-muted"></small>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="../images/disco5.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
-              alt="disco5">
-            <div class="card-body">
-              <p class="card-text"> Tamo aí na Atividade<br>Released June 16, 2004.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-outline-secondary"
-                    href="https://open.spotify.com/album/6PsijYuoyIB4vgV5brmbhq" target="_blank">Ouça agora </a>
-
-                </div>
-              </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/galeria2.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250"
+          alt="photo2">
+        <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
             </div>
+            <small class="text-muted"></small>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img src="../images/disco6.jpg" class="bd-placeholder-img card-img-top grow" width="100%" height="250"
-              alt="disco6">
-            <div class="card-body">
-              <p class="card-text"> Camisa 10 Joga Bola Até na Chuva <br> Released September 25, 2009.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <a class="btn btn-sm btn-outline-secondary"
-                    href="https://open.spotify.com/album/0tbiBipiOorOAnL7XWFbgt" target="_blank">Ouça agora </a>
+      </div>
+    </div>
 
-
-                </div>
-              </div>
+    <div class="col-md-3">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/galeria3.png" class="bd-placeholder-img card-img-top" width="100%" height="250"
+          alt="photo3">
+        <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
             </div>
+            <small class="text-muted"></small>
           </div>
-        </div>
-        <hr class="featurette-divider">
-<div class="row" id="section-galeria">
-  <h2>Galeria - Frases</h2>
-  <div class="col-md-3 ">
-    <div class="card mb-4 shadow-sm">
-      <img src="../images/galeria1.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo1">
-      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group nav-li">
-          </div>
-          <small class="text-muted"></small>
         </div>
       </div>
     </div>
-  </div>
-  
-  <div class="col-md-3">
-    <div class="card mb-4 shadow-sm">
-      <img src="../images/galeria2.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo2">
-      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group nav-li">
+
+    <div class="col-md-3">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/galeria4.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250"
+          alt="photo4">
+        <div class=" d-flex justify-content-between align-items-center btn-group nav-li">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
+            </div>
+            <small class="text-muted"></small>
           </div>
-          <small class="text-muted"></small>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="col-md-3">
-    <div class="card mb-4 shadow-sm">
-      <img src="../images/galeria3.png" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo3">
-      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group nav-li">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/galeria5.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250"
+          alt="photo5">
+        <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
+            </div>
+            <small class="text-muted"></small>
           </div>
-          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/galeria6.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250"
+          alt="photo6">
+        <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
+            </div>
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/galeria7.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250"
+          alt="photo7">
+        <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
+            </div>
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/galeria8.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250"
+          alt="photo8">
+        <div class=" d-flex justify-content-between align-items-center btn-group nav-li">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
+            </div>
+            <small class="text-muted"></small>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="col-md-3">
-    <div class="card mb-4 shadow-sm">
-      <img src="../images/galeria4.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo4">
-      <div class=" d-flex justify-content-between align-items-center btn-group nav-li">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group nav-li">
+
+  <div class="row">
+
+    <div class="col-md-3">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/galeria9.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250"
+          alt="photo9">
+        <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
+            </div>
+            <small class="text-muted"></small>
           </div>
-          <small class="text-muted"></small>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/galeria10.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250"
+          alt="photo10">
+        <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
+            </div>
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/galeria11.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250"
+          alt="photo11">
+        <div class="d-flex justify-content-between align-items-center btn-group nav-li">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
+            </div>
+            <small class="text-muted"></small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card mb-4 shadow-sm">
+        <img src="../images/galeria12.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250"
+          alt="photo12">
+        <div class=" d-flex justify-content-between align-items-center btn-group nav-li">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group nav-li">
+            </div>
+            <small class="text-muted"></small>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<div class="row" id="section-galeria">
- 
-  <div class="col-md-3">
-    <div class="card mb-4 shadow-sm">
-      <img src="../images/galeria5.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo5">
-      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group nav-li">
-          </div>
-          <small class="text-muted"></small>
-        </div>
-      </div>
+  <section id="section-contact" class="contact">
+    <div class="container">
+      <h2 class="text-center">Contato</h2>
+      <p class="text-center">Entre em contato conosco.</p>
+      <form id="contact-form">
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Seu e-mail" required>
+        </div><br>
+        <div class="form-group">
+          <textarea class="form-control" rows="5" placeholder="Sua mensagem" required></textarea>
+        </div><br>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
     </div>
-  </div>
-  
-  <div class="col-md-3">
-    <div class="card mb-4 shadow-sm">
-      <img src="../images/galeria6.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo6">
-      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group nav-li">
-          </div>
-          <small class="text-muted"></small>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 
-  <div class="col-md-3">
-    <div class="card mb-4 shadow-sm">
-      <img src="../images/galeria7.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo7">
-      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group nav-li">
-          </div>
-          <small class="text-muted"></small>
-        </div>
-      </div>
-    </div>
+  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top socials">
+    <p>&copy; 2024 Magda Figueiredo. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <ul class="list-unstyled d-flex">
+      <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/cbjroficial/?locale=pt_PT"><img
+            src="../icons/socialfacebook.svg" alt="facebook"></a></li>
+      <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/charliebrownjr/"><img
+            src="../icons/socialinstagram.svg" alt="instagram"></a></li>
+      <li class="ms-3"><a class="link-body-emphasis" href="https://twitter.com/cbjroficial?lang=pt"><img
+            src="../icons/socialtwitter.svg" alt="twitter"></a></li>
+      <li class="ms-3"><a class="link-body-emphasis" href="https://www.youtube.com/@cbjr./featured"><img
+            src="../icons/socialyoutube.svg" alt="youtube"></a></li>
+      <li class="ms-3"><a class="link-body-emphasis" href="https://open.spotify.com/artist/1on7ZQ2pvgeQF4vmIA09x5"><img
+            src="../icons/socialspotify.svg" alt="spotify"></a></li>
+      <li class="ms-3"><a class="link-body-emphasis" href="https://www.tiktok.com/@charliebrownjr"><img
+            src="../icons/tiktok.svg" alt="tiktok"></a></li>
+    </ul>
   </div>
-
-  <div class="col-md-3">
-    <div class="card mb-4 shadow-sm">
-      <img src="../images/galeria8.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo8">
-      <div class=" d-flex justify-content-between align-items-center btn-group nav-li">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group nav-li">
-          </div>
-          <small class="text-muted"></small>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="row" id="section-galeria">
-
-  <div class="col-md-3">
-    <div class="card mb-4 shadow-sm">
-      <img src="../images/galeria9.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo9">
-      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group nav-li">
-          </div>
-          <small class="text-muted"></small>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="col-md-3">
-    <div class="card mb-4 shadow-sm">
-      <img src="../images/galeria10.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo10">
-      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group nav-li">
-          </div>
-          <small class="text-muted"></small>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-3">
-    <div class="card mb-4 shadow-sm">
-      <img src="../images/galeria11.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo11">
-      <div class="d-flex justify-content-between align-items-center btn-group nav-li">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group nav-li">
-          </div>
-          <small class="text-muted"></small>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-3">
-    <div class="card mb-4 shadow-sm">
-      <img src="../images/galeria12.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250" alt="photo12">
-      <div class=" d-flex justify-content-between align-items-center btn-group nav-li">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="btn-group nav-li">
-          </div>
-          <small class="text-muted"></small>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-        <section id="section-contact" class="contact">
-          <div class="container">
-            <h2 class="text-center">Contato</h2>
-            <p class="text-center">Entre em contato conosco.</p>
-            <form id="contact-form">
-              <div class="form-group">
-                <input type="email" class="form-control" placeholder="Seu e-mail" required>
-              </div><br>
-              <div class="form-group">
-                <textarea class="form-control" rows="5" placeholder="Sua mensagem" required></textarea>
-              </div><br>
-              <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
-          </div>
-        </section>
-        <!-- FOOTER -->
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top socials">
-          <p>&copy; 2024 Magda Figueiredo. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-body-emphasis"
-                href="https://www.facebook.com/cbjroficial/?locale=pt_PT"><img src="../icons/socialfacebook.svg"
-                  alt="facebook"></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/charliebrownjr/"><img
-                  src="../icons/socialinstagram.svg" alt="instagram"></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="https://twitter.com/cbjroficial?lang=pt"><img
-                  src="../icons/socialtwitter.svg" alt="twitter"></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="https://www.youtube.com/@cbjr./featured"><img
-                  src="../icons/socialyoutube.svg" alt="youtube"></a></li>
-            <li class="ms-3"><a class="link-body-emphasis"
-                href="https://open.spotify.com/artist/1on7ZQ2pvgeQF4vmIA09x5"><img src="../icons/socialspotify.svg"
-                  alt="spotify"></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="https://www.tiktok.com/@charliebrownjr"><img
-                  src="../icons/tiktok.svg" alt="tiktok"></a></li>
-          </ul>
-        </div>
-        <footer class="container">
-          <p class="float-end"><a href="#top">Back to top</a></p>
-        </footer>
-
+  <footer class="container">
+    <p class="float-end"><a href="#top">Back to top</a></p>
+  </footer>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
