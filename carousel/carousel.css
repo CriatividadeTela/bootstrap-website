@@ -102,7 +102,6 @@ rect {
   fill: rgb(85, 89, 92);
 }
 
-
 .grow {
   transition: all 0.1s ease-in-out;
   display: flex;
@@ -111,8 +110,5 @@ rect {
 .grow:hover {
   transform: scale(1.5);
   border-radius: 1%;
-  cursor: pointer; }
-
-  font-family: {"Playfair Display", Georgia, "Times New Roman", serif;
-
-  }
+  cursor: pointer;
+}
